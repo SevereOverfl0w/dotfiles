@@ -6,8 +6,9 @@
 
 ########## Variables
 
-dir=${0%/*}                    # dotfiles directory
+dir=`pwd`/${0%/*}                    # dotfiles directory
 files="vimrc vim"    # list of files/folders to symlink in homedir
+conffiles="termite"
 
 ##########
 
@@ -20,4 +21,9 @@ echo "...done"
 for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
+done
+
+for file in $conffiles; do
+    echo "Creating symlink to $file in ~/.config/$file directory."
+    ln -s $dir/config/$file ~/.config/$file
 done
