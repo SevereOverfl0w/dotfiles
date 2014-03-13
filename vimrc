@@ -10,3 +10,5 @@ set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 
 colorscheme slate
 let g:miniBufExplBuffersNeeded = 1
+
+set number
