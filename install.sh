@@ -20,10 +20,11 @@ echo "...done"
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
 for file in $files; do
     echo "Creating symlink to $file in home directory."
-    ln -s $dir/$file ~/.$file
+    ln -sf $dir/$file ~/.$file
 done
 
+mkdir ~/.config # Just incase
 for file in $conffiles; do
     echo "Creating symlink to $file in ~/.config/$file directory."
-    ln -s $dir/config/$file ~/.config/$file
+    ln -sf $dir/config/$file ~/.config/$file
 done
