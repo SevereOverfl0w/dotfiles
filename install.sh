@@ -28,3 +28,12 @@ for file in $conffiles; do
     echo "Creating symlink to $file in ~/.config/$file directory."
     ln -sf $dir/config/$file ~/.config/$file
 done
+
+if [ ! -d "$HOME/.vim/bundle/Vundle.vim" ]; then
+    echo "Installing Vundle"
+    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+fi
+
+echo "Updating/Installing plugins"
+vim +PluginInstall +qall
+vim +PluginClean +qall
