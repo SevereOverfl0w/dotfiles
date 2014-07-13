@@ -35,33 +35,57 @@ cursor_shape = block
 # set size hints for the window
 #size_hints = false
 
+#[colors]
+#foreground = #cccccc
+#foreground_bold = #ffffff
+##foreground_dim = #888888
+#background = #333333
+#cursor = #999999
+#
+## if unset, will reverse foreground and background
+##highlight = #2f2f2f
+#
+## colors from color0 to color254 can be set
+#color0 = #666666
+#color1 = #CC6699
+#color2 = #99CC66
+#color3 = #CC9966
+#color4 = #6699CC
+#color5 = #9966CC
+#color6 = #66CC99
+#color7 = #CCCCCC
+#color8 = #999999
+#color9 = #FF99CC
+#color10 = #CCFF99
+#color11 = #FFCC99
+#color12 = #99CCFF
+#color13 = #CC99FF
+#color14 = #99FFCC
+#color15 = #FFFFFF
+
 [colors]
-foreground = #cccccc
-foreground_bold = #ffffff
+foreground = #a5a5a5
+foreground_bold = #fedfed
 #foreground_dim = #888888
-background = #333333
-cursor = #999999
+background = #161616
+#cursor = #dcdccc
 
-# if unset, will reverse foreground and background
-#highlight = #2f2f2f
-
-# colors from color0 to color254 can be set
-color0 = #666666
-color1 = #CC6699
-color2 = #99CC66
-color3 = #CC9966
-color4 = #6699CC
-color5 = #9966CC
-color6 = #66CC99
-color7 = #CCCCCC
-color8 = #999999
-color9 = #FF99CC
-color10 = #CCFF99
-color11 = #FFCC99
-color12 = #99CCFF
-color13 = #CC99FF
-color14 = #99FFCC
-color15 = #FFFFFF
+color0 = #343434
+color1 = #802828
+color2 = #909737
+color3 = #B27D12
+color4 = #385e6b
+color5 = #642337
+color6 = #196271
+color7 = #b3b3b3
+color8 = #424242
+color9 = #8a3232
+color10 = #9ca554
+color11 = #DDB62B
+color12 = #5c737c
+color13 = #7D2D41
+color14 = #197885
+color15 = #b3b3b3
 
 [hints]
 #font = Monospace 12
