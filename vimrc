@@ -18,6 +18,7 @@ Plugin 'blueyed/vim-autoclose'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'ap/vim-css-color'
+Plugin 'digitaltoad/vim-jade'
 
 call vundle#end()
 filetype plugin on
