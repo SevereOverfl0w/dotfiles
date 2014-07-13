@@ -9,7 +9,6 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'mattn/emmet-vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mattr555/vim-instacode'
@@ -28,7 +27,7 @@ set autoindent
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 
 syntax on
-colorscheme solarized
+colorscheme slate
 set background=dark
 
 " Numbers

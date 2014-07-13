@@ -35,63 +35,33 @@ cursor_shape = block
 # set size hints for the window
 #size_hints = false
 
-#[colors]
-#foreground = #a1a1a1
-#foreground_bold = #a1a1a1
-##foreground_dim = #888888
-#background = #1c1c1c
-#cursor = #c7a551
-#
-## if unset, will reverse foreground and background
-#highlight = #202020
-#
-## colors from color0 to color254 can be set
-#color0  = #232323
-#color1  = #a04363
-#color2  = #9b9329
-#color3  = #bf7a29
-#color4  = #6a8c8c
-#color5  = #856774
-#color6  = #757978
-#color7  = #a1a1a1
-#color8  = #464646
-#color9  = #ae837a
-#color10 = #b4aa30
-#color11 = #c7a551
-#color12 = #74999e
-#color13 = #9c818e
-#color14 = #9fa590
-#color15 = #c1c4bc
-
 [colors]
-foreground = #839496
-foreground_bold = #eee8d5
+foreground = #cccccc
+foreground_bold = #ffffff
 #foreground_dim = #888888
-background = #002b36
-cursor = #93a1a1
+background = #333333
+cursor = #999999
 
 # if unset, will reverse foreground and background
-#highlight = #839496
+#highlight = #2f2f2f
 
 # colors from color0 to color254 can be set
-color0 = #073642
-color1 = #dc322f
-color2 = #859900
-color3 = #b58900
-color4 = #268bd2
-color5 = #d33682
-color6 = #2aa198
-color7 = #eee8d5
-color8 = #002b36
-#color8 = #839496
-# Above fix due to js-chalk & jshint conflicts
-color9 = #cb4b16
-color10 = #586e75
-color11 = #657b83
-color12 = #839496
-color13 = #6c71c4
-color14 = #93a1a1
-color15 = #fdf6e3
+color0 = #666666
+color1 = #CC6699
+color2 = #99CC66
+color3 = #CC9966
+color4 = #6699CC
+color5 = #9966CC
+color6 = #66CC99
+color7 = #CCCCCC
+color8 = #999999
+color9 = #FF99CC
+color10 = #CCFF99
+color11 = #FFCC99
+color12 = #99CCFF
+color13 = #CC99FF
+color14 = #99FFCC
+color15 = #FFFFFF
 
 [hints]
 #font = Monospace 12
