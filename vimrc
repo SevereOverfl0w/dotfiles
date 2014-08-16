@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-sensible'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mattn/emmet-vim'
 Plugin 'kchmck/vim-coffee-script'
@@ -18,6 +19,11 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'ap/vim-css-color'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'groenewege/vim-less'
+Plugin 'Valloric/YouCompleteMe'
+" Gist & Dependency
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
 
 call vundle#end()
 filetype plugin on
@@ -79,6 +85,7 @@ autocmd FileType javascript :iabbrev fn-> function(){<cr><cr>}<up><tab>
 autocmd FileType html :iabbrev <buffer> &< &lt;
 autocmd FileType html :iabbrev <buffer> &> &gt;
 
+highlight Pmenu ctermfg=yellow ctermbg=black cterm=bold
 
 " Add maps for more html-like files
 au BufRead,BufNewFile *.{hbs,mako,jinja2} setfiletype html

@@ -6,7 +6,7 @@
 
 ########## Variables
 
-dir=`pwd`/${0%/*}                    # dotfiles directory
+dir=${0%/*}                    # dotfiles directory
 files="vimrc vim xinitrc"    # list of files/folders to symlink in homedir
 conffiles="termite"
 
