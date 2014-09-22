@@ -21,6 +21,7 @@ Plugin 'ap/vim-css-color'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'groenewege/vim-less'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'editorconfig/editorconfig-vim'
 " Gist & Dependency
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
