@@ -6,7 +6,8 @@
 
 ########## Variables
 
-dir=${0%/*}                    # dotfiles directory
+dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" # Directory of script
+echo $dir
 files="vimrc vim xinitrc"    # list of files/folders to symlink in homedir
 conffiles="termite"
 
