@@ -31,7 +31,7 @@ filetype plugin on
 
 set colorcolumn=80
 set autoindent
-set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 
 syntax on
 set background=dark
