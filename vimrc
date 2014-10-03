@@ -87,6 +87,7 @@ autocmd FileType html :iabbrev <buffer> &< &lt;
 autocmd FileType html :iabbrev <buffer> &> &gt;
 
 highlight Pmenu ctermfg=yellow ctermbg=black cterm=bold
+highlight ColorColumn ctermbg=7
 
 " Add maps for more html-like files
 au BufRead,BufNewFile *.{hbs,mako,jinja2} setfiletype html
