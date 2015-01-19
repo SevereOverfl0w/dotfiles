@@ -22,6 +22,10 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'groenewege/vim-less'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'mtscout6/vim-cjsx'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'reedes/vim-wordy'
 " Gist & Dependency
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
@@ -34,12 +38,12 @@ set autoindent
 set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 
 syntax on
+
 set background=dark
+colorscheme gotham
 
 " Numbers
 set number
-" Show numbers relative to current line
-set relativenumber
 " Make indents conform to my biases
 set shiftround
 
@@ -56,6 +60,7 @@ let maplocalleader = "\\"
 " Easy editing of vimrc
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>nt :NERDTreeToggle<cr>
 " Chap9 - extra mappings
 nnoremap H ^
 nnoremap L $
@@ -85,9 +90,14 @@ iabbrev ssig -- Dominic Monroe --
 autocmd FileType javascript :iabbrev fn-> function(){<cr><cr>}<up><tab>
 autocmd FileType html :iabbrev <buffer> &< &lt;
 autocmd FileType html :iabbrev <buffer> &> &gt;
+au BufNewFile,BufRead Vagrantfile set filetype=ruby
 
 highlight Pmenu ctermfg=yellow ctermbg=black cterm=bold
 highlight ColorColumn ctermbg=7
 
 " Add maps for more html-like files
 au BufRead,BufNewFile *.{hbs,mako,jinja2} setfiletype html
+
+" indent guides
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
